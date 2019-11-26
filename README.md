@@ -13,5 +13,7 @@ pip install html2text
 
 ## Run
 ```
-$ python convertor.py
+$ ./convertor.py
 ```
+## More
+Need to implement for windows.
