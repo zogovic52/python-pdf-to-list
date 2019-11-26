@@ -32,7 +32,7 @@ def main():
 
     # Change pdf into html.
     call(["pdftohtml", filename+".pdf", "-q", "-s", "-i"])
-    html = open(filename+"-html.html").read()
+    html = open(filename+"-html.html", encoding="utf8").read()
     text = html2text.html2text(html)
 
     resList = []
