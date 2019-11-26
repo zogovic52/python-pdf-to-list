@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 __author__ = 'Nikola'
 __date__ = '26.11.2019'
 
